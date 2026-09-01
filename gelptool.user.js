@@ -461,6 +461,9 @@
     let lastUrl = location.href;
     setInterval(async () => {
         if (location.href !== lastUrl) {
+            if (isRunning) {
+                return;
+            }
             lastUrl = location.href;
             const isAutoRun = sessionStorage.getItem(STORAGE_KEY) === 'true';
             if (isAutoRun) {
