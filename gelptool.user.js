@@ -124,7 +124,7 @@
             await selectByAI();
         }
 
-        await sleep(1200);
+        await sleep(1800);
         document.querySelector(".BaseButton_fill__jfjjK")?.click();
         await sleep(1200);
     }
