@@ -6,6 +6,8 @@
 // @author       You
 // @match        https://gelpweb.benesse.ne.jp/members/myRecipe*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICRAEAOw==
+// @downloadURL  https://github.com/ta-kuan/Gelptool/raw/refs/heads/main/gelptool.user.js
+// @updateURL    https://github.com/ta-kuan/Gelptool/raw/refs/heads/main/gelptool.user.js
 // @grant        GM_registerMenuCommand
 // @grant        GM_xmlhttpRequest
 // @connect      generativelanguage.googleapis.com
