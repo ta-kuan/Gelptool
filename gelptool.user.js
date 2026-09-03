@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GelpTool
 // @namespace    http://tampermonkey.net/
-// @version      2026-08-01-3
+// @version      2026-09-03-1
 // @description  try to take over the world!
 // @author       You
 // @match        https://gelpweb.benesse.ne.jp/members/myRecipe*
