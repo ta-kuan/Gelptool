@@ -39,8 +39,8 @@
         }
     }
     const sleep=(ms)=>new Promise(resolve=>setTimeout(resolve,ms));
-    const GEMINI_API_KEY="AQ.Ab8RN6JLlbGPD7Ta5yAC3KQClo62mYhVI0qxVoEjsqbZfsrU_A";
-    const MODEL="gemini-3.5-flash-lite";
+    const GEMINI_API_KEY="AQ.Ab8RN6L9Lc1RvJx5F9UFv45Gefq4T7wQdyhKVJqx5PMw-DGV0w";
+    const MODEL="gemini-3.6-flash";
 
     function geminiRequest(prompt){
         return new Promise((resolve,reject)=>{
