@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GelpTool
 // @namespace    http://tampermonkey.net/
-// @version      2026-09-03-1
+// @version      2026-09-04-1
 // @description  try to take over the world!
 // @author       You
 // @match        https://gelpweb.benesse.ne.jp/members/myRecipe*
@@ -40,7 +40,7 @@
     }
     const sleep=(ms)=>new Promise(resolve=>setTimeout(resolve,ms));
     const GEMINI_API_KEY="AQ.Ab8RN6L9Lc1RvJx5F9UFv45Gefq4T7wQdyhKVJqx5PMw-DGV0w";
-    const MODEL="gemini-3.6-flash";
+    const MODEL="gemini-3.5-flash-lite";
 
     function geminiRequest(prompt){
         return new Promise((resolve,reject)=>{
