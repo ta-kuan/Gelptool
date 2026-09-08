@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GelpTool
 // @namespace    http://tampermonkey.net/
-// @version      2026-09-08-1
+// @version      2026-09-08-2
 // @description  try to take over the world!
 // @author       You
 // @match        https://gelpweb.benesse.ne.jp/members/myRecipe*
@@ -17,7 +17,7 @@
     'use strict';
     const STORAGE_KEY = 'gelptool_auto_run';
     const INDEX_KEY = 'gelptool_current_index'; // 次に処理する一覧項目の番号を保存
-    const NAV_KEY = 'gelptool_navigating';      // スクリプト自身の自動遷移かを識別するフラグ
+    const NAV_KEY = 'gelptool_navigating';// スクリプト自身の自動遷移かを識別するフラグ
     let isRunning = false;
     const isScriptNavigating = sessionStorage.getItem(NAV_KEY) === 'true';
     sessionStorage.removeItem(NAV_KEY); // フラグはチェック後に消去
