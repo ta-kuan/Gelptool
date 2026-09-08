@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         GelpTool
 // @namespace    http://tampermonkey.net/
-// @version      2026-09-08-3
+// @version      2026-09-08-4
 // @description  try to take over the world!
 // @author       You
 // @match        https://gelpweb.benesse.ne.jp/members/myRecipe*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICRAEAOw==
-// @downloadURL  https://github.com/ta-kuan/Gelptool/raw/refs/heads/main/gelptool.user.js
-// @updateURL    https://github.com/ta-kuan/Gelptool/raw/refs/heads/main/gelptool.user.js
+// @downloadURL  https://raw.githubusercontent.com/ta-kuan/Gelptool/main/gelptool.user.js
+// @updateURL    https://raw.githubusercontent.com/ta-kuan/Gelptool/main/gelptool.user.js
 // @grant        GM_registerMenuCommand
 // @grant        GM_xmlhttpRequest
 // @connect      generativelanguage.googleapis.com
